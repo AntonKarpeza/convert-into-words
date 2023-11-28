@@ -58,6 +58,7 @@ export class ConvertComponent {
     }
 
     event.target.value = input;
+    this.numberInput = input;
   }
 
 }

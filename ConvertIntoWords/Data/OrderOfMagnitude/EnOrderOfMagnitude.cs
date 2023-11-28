@@ -5,7 +5,7 @@
 
     public class EnOrderOfMagnitude : IEnOrderOfMagnitude
     {
-        private static readonly Dictionary<OrderOfMagnitude, string> orderOfMagnitude = new Dictionary<OrderOfMagnitude, string>
+        private static readonly Dictionary<OrderOfMagnitude, string> orderOfMagnitude = new()
         {
             { OrderOfMagnitude.ones, "" },
             { OrderOfMagnitude.hundreds, "hundred" },

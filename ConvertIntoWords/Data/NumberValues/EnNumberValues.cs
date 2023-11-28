@@ -4,7 +4,7 @@ namespace ConvertIntoWords.Data.NumberValues
 {
     public class EnNumberValues: IEnNumberValues
     {
-        private static readonly Dictionary<int, string> numbers = new Dictionary<int, string>()
+        private static readonly Dictionary<int, string> numbers = new ()
             {
                 { 0, "zero" },
                 { 1, "one" },
